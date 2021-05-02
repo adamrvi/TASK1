@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Nilai</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tugas4.css".css">
+    
+</head>
+
+<body>
+    <div class="container">
+
+        <form class="form" onsubmit="return submitData()">
+         <div>
+            <table border="2">
+                <tr>
+                  <th>Range</th>
+                  <th>Class</th>
+                </tr> 
+                <tr>
+                    <td>86 - 100</td>
+                    <td> A </td>
+                </tr>
+                <tr>
+                    <td>70 - 85</td>
+                    <td> B </td>
+                </tr>
+                <tr>
+                    <td>50 - 69</td>
+                    <td> C </td>
+                </tr>
+                <tr>
+                    <td>30 - 49</td>
+                    <td> D </td>   
+                <tr>
+                    <td>0 - 29</td>
+                    <td> E </td>
+                </tr>
+            </div>
+
+            <h3 style="text-align: center;">Convert Value</h3>
+            <div class="text1">
+                <label class="text1">Input</label>
+                <input class="custom-input" type="text" name="a" id="a" placeholder="Input">
+                <input class= "btn" type="button" name="tombol" id="tombol" value="konversi" onClick="konversi()"/><br>
+                <label class="text1">Output</label>
+                <input class="custom-input" type="text" name="c" id="c" placeholder="Nilai">
+                </div>
+            </form>
+                
+    <script src="4.convert tugas.js"></script>
+</body>
+
+</html>
